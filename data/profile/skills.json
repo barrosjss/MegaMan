@@ -1,0 +1,109 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "React",
+      "category": "Frontend",
+      "level": 5,
+      "icon": "react"
+    },
+    {
+      "id": "2",
+      "name": "TypeScript",
+      "category": "Frontend",
+      "level": 5,
+      "icon": "typescript"
+    },
+    {
+      "id": "3",
+      "name": "Next.js",
+      "category": "Frontend",
+      "level": 4,
+      "icon": "nextjs"
+    },
+    {
+      "id": "4",
+      "name": "TailwindCSS",
+      "category": "Frontend",
+      "level": 5,
+      "icon": "tailwind"
+    },
+    {
+      "id": "5",
+      "name": "Node.js",
+      "category": "Backend",
+      "level": 4,
+      "icon": "nodejs"
+    },
+    {
+      "id": "6",
+      "name": "Python",
+      "category": "Backend",
+      "level": 4,
+      "icon": "python"
+    },
+    {
+      "id": "7",
+      "name": "PostgreSQL",
+      "category": "Database",
+      "level": 4,
+      "icon": "postgresql"
+    },
+    {
+      "id": "8",
+      "name": "MongoDB",
+      "category": "Database",
+      "level": 3,
+      "icon": "mongodb"
+    },
+    {
+      "id": "9",
+      "name": "Git",
+      "category": "Tools",
+      "level": 5,
+      "icon": "git"
+    },
+    {
+      "id": "10",
+      "name": "Docker",
+      "category": "Tools",
+      "level": 3,
+      "icon": "docker"
+    },
+    {
+      "id": "11",
+      "name": "AWS",
+      "category": "Cloud",
+      "level": 3,
+      "icon": "aws"
+    },
+    {
+      "id": "12",
+      "name": "Gestión de Proyectos",
+      "category": "Soft Skills",
+      "level": 4,
+      "icon": "users"
+    },
+    {
+      "id": "13",
+      "name": "Liderazgo de Equipos",
+      "category": "Soft Skills",
+      "level": 4,
+      "icon": "users"
+    },
+    {
+      "id": "14",
+      "name": "Pensamiento Estratégico",
+      "category": "Soft Skills",
+      "level": 5,
+      "icon": "message"
+    },
+    {
+      "id": "15",
+      "name": "Modelos de Negocio",
+      "category": "Soft Skills",
+      "level": 4,
+      "icon": "briefcase"
+    }
+  ]
+}

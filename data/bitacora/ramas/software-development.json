@@ -1,0 +1,76 @@
+{
+  "id": "software-development",
+  "title": "Técnico Laboral en Programación y Desarrollo de Software",
+  "description": "Formación completa en desarrollo de software, desde los fundamentos de programación hasta el desarrollo de aplicaciones web full-stack.",
+  "category": "dev",
+  "level": "beginner",
+  "coverImage": "/images/courses/software-development.jpg",
+  "isPublished": true,
+  "publishedAt": "2024-01-15",
+  "updatedAt": "2024-02-17",
+  "courses": [
+    {
+      "id": "logica-programacion",
+      "title": "Lógica de Programación",
+      "description": "Fundamentos esenciales del pensamiento computacional y resolución de problemas algorítmicos.",
+      "order": 1,
+      "lessonsCount": 8,
+      "duration": "6 horas",
+      "isPublished": true
+    },
+    {
+      "id": "fundamentos-python",
+      "title": "Fundamentos de Python",
+      "description": "Aprende Python desde cero: sintaxis, estructuras de datos, funciones y programación orientada a objetos.",
+      "order": 2,
+      "lessonsCount": 12,
+      "duration": "10 horas",
+      "isPublished": true
+    },
+    {
+      "id": "control-versiones-git",
+      "title": "Control de Versiones con Git",
+      "description": "Domina Git y GitHub para el control de versiones y trabajo colaborativo en equipo.",
+      "order": 3,
+      "lessonsCount": 6,
+      "duration": "4 horas",
+      "isPublished": true
+    },
+    {
+      "id": "desarrollo-web-frontend",
+      "title": "Desarrollo Web Frontend",
+      "description": "HTML, CSS y JavaScript moderno para crear interfaces web interactivas y responsivas.",
+      "order": 4,
+      "lessonsCount": 15,
+      "duration": "12 horas",
+      "isPublished": true
+    },
+    {
+      "id": "desarrollo-web-backend",
+      "title": "Desarrollo Web Backend",
+      "description": "Construye APIs RESTful y servidores web con Node.js y frameworks modernos.",
+      "order": 5,
+      "lessonsCount": 12,
+      "duration": "10 horas",
+      "isPublished": true
+    },
+    {
+      "id": "bases-de-datos",
+      "title": "Bases de Datos",
+      "description": "Diseño, modelado y consulta de bases de datos SQL y NoSQL.",
+      "order": 6,
+      "lessonsCount": 10,
+      "duration": "8 horas",
+      "isPublished": true
+    },
+    {
+      "id": "proyecto-integrador",
+      "title": "Proyecto Integrador de Desarrollo",
+      "description": "Aplica todos tus conocimientos en un proyecto real de desarrollo web full-stack.",
+      "order": 7,
+      "lessonsCount": 5,
+      "duration": "15 horas",
+      "isPublished": true
+    }
+  ]
+}

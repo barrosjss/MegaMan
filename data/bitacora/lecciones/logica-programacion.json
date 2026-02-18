@@ -1,0 +1,78 @@
+{
+  "courseId": "logica-programacion",
+  "title": "Lógica de Programación",
+  "lessons": [
+    {
+      "id": "lp-01",
+      "title": "Introducción a la Lógica de Programación",
+      "type": "video",
+      "duration": 45,
+      "order": 1,
+      "isPublished": true,
+      "content": "# Introducción a la Lógica de Programación\n\nEn esta lección aprenderás:\n- Qué es la lógica de programación\n- Importancia del pensamiento computacional\n- Cómo resolver problemas de forma estructurada\n\n## Conceptos Fundamentales\n\nLa lógica de programación es la base de todo desarrollo de software. Nos permite..."
+    },
+    {
+      "id": "lp-02",
+      "title": "Algoritmos y Pseudocódigo",
+      "type": "article",
+      "duration": 30,
+      "order": 2,
+      "isPublished": true,
+      "content": "# Algoritmos y Pseudocódigo\n\n## ¿Qué es un Algoritmo?\n\nUn algoritmo es una secuencia de pasos finitos y bien definidos..."
+    },
+    {
+      "id": "lp-03",
+      "title": "Estructuras Secuenciales",
+      "type": "video",
+      "duration": 40,
+      "order": 3,
+      "isPublished": true,
+      "content": "# Estructuras Secuenciales\n\nLas estructuras secuenciales son la base de la programación..."
+    },
+    {
+      "id": "lp-04",
+      "title": "Estructuras Condicionales",
+      "type": "video",
+      "duration": 50,
+      "order": 4,
+      "isPublished": true,
+      "content": "# Estructuras Condicionales\n\nAprende a usar if, else y switch..."
+    },
+    {
+      "id": "lp-05",
+      "title": "Estructuras Repetitivas",
+      "type": "video",
+      "duration": 55,
+      "order": 5,
+      "isPublished": true,
+      "content": "# Estructuras Repetitivas\n\nBucles for, while y do-while..."
+    },
+    {
+      "id": "lp-06",
+      "title": "Ejercicios Prácticos",
+      "type": "exercise",
+      "duration": 60,
+      "order": 6,
+      "isPublished": true,
+      "content": "# Ejercicios Prácticos\n\nResuelve los siguientes problemas..."
+    },
+    {
+      "id": "lp-07",
+      "title": "Recursos Adicionales",
+      "type": "resource",
+      "duration": 15,
+      "order": 7,
+      "isPublished": true,
+      "content": "# Recursos Adicionales\n\n- Libros recomendados\n- Sitios web útiles\n- Herramientas de práctica"
+    },
+    {
+      "id": "lp-08",
+      "title": "Evaluación de Conocimientos",
+      "type": "quiz",
+      "duration": 30,
+      "order": 8,
+      "isPublished": true,
+      "content": "# Evaluación\n\nPreguntas de opción múltiple..."
+    }
+  ]
+}

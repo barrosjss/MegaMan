@@ -1,0 +1,49 @@
+{
+  "experiences": [
+    {
+      "id": "1",
+      "company": "Empresa Tecnológica",
+      "role": "Ingeniero de Sistemas",
+      "startDate": "2022-03-01",
+      "endDate": null,
+      "description": "Diseño e implementación de soluciones tecnológicas empresariales. Gestión de proyectos de software, arquitectura de sistemas y liderazgo técnico de equipos multidisciplinarios.",
+      "type": "work"
+    },
+    {
+      "id": "2",
+      "company": "Startup Propio",
+      "role": "Fundador & CEO",
+      "startDate": "2020-06-01",
+      "endDate": null,
+      "description": "Fundador de startup tecnológica enfocada en soluciones digitales innovadoras. Desarrollo de estrategia de negocio, gestión de equipos y toma de decisiones ejecutivas.",
+      "type": "work"
+    },
+    {
+      "id": "3",
+      "company": "Consultora de Tecnología",
+      "role": "Consultor de Sistemas",
+      "startDate": "2019-01-01",
+      "endDate": "2022-02-28",
+      "description": "Consultoría en transformación digital para empresas de diversos sectores. Análisis de requerimientos, diseño de arquitecturas y acompañamiento en implementación de soluciones tecnológicas.",
+      "type": "work"
+    },
+    {
+      "id": "4",
+      "company": "Universidad Nacional",
+      "role": "Ingeniería de Sistemas",
+      "startDate": "2015-01-01",
+      "endDate": "2019-12-31",
+      "description": "Formación integral en ingeniería de sistemas: software, hardware, redes y gestión de proyectos. Proyecto de grado: Plataforma de gestión empresarial con enfoque en escalabilidad.",
+      "type": "education"
+    },
+    {
+      "id": "5",
+      "company": "Comunidad de Emprendedores",
+      "role": "Mentor de Startups",
+      "startDate": "2021-06-01",
+      "endDate": null,
+      "description": "Acompañamiento a emprendedores en sus primeras etapas. Mentoría en validación de ideas, modelos de negocio y estrategias de crecimiento.",
+      "type": "volunteer"
+    }
+  ]
+}

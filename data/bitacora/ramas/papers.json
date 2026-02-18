@@ -1,0 +1,40 @@
+{
+  "id": "papers",
+  "title": "Papers",
+  "description": "Notas sobre investigaciones, aprendizajes, proyectos y reflexiones personales.",
+  "category": "papers",
+  "level": "intermediate",
+  "coverImage": "/images/courses/papers.jpg",
+  "isPublished": true,
+  "publishedAt": "2024-02-17",
+  "updatedAt": "2024-02-17",
+  "courses": [
+    {
+      "id": "investigaciones",
+      "title": "Investigaciones",
+      "description": "Notas y resúmenes de investigaciones en curso sobre tecnología y negocios.",
+      "order": 1,
+      "lessonsCount": 0,
+      "duration": "Varios",
+      "isPublished": false
+    },
+    {
+      "id": "aprendizajes",
+      "title": "Aprendizajes",
+      "description": "Reflexiones y lecciones aprendidas en el camino profesional y personal.",
+      "order": 2,
+      "lessonsCount": 0,
+      "duration": "Varios",
+      "isPublished": false
+    },
+    {
+      "id": "proyectos",
+      "title": "Proyectos",
+      "description": "Documentación y notas sobre proyectos en desarrollo.",
+      "order": 3,
+      "lessonsCount": 0,
+      "duration": "Varios",
+      "isPublished": false
+    }
+  ]
+}

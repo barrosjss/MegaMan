@@ -1,0 +1,12 @@
+{
+  "id": "personal-growth",
+  "title": "Crecimiento Personal",
+  "description": "Herramientas y técnicas para el desarrollo personal, gestión emocional y transformación integral.",
+  "category": "personal_growth",
+  "level": "beginner",
+  "coverImage": "/images/courses/personal-growth.jpg",
+  "isPublished": false,
+  "publishedAt": null,
+  "updatedAt": "2024-02-17",
+  "courses": []
+}

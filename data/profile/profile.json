@@ -1,0 +1,13 @@
+{
+  "name": "Jesús Barros",
+  "tagline": "Ingeniero de Sistemas & Empresario",
+  "bio": "Soy Ingeniero de Sistemas con una sólida formación técnica y visión empresarial. A lo largo de mi carrera he combinado el conocimiento en tecnología con el desarrollo de iniciativas de negocio, buscando siempre crear soluciones innovadoras que generen valor real.\n\nMi enfoque integra la precisión técnica del ingeniero con la visión estratégica del empresario, permitiéndome abordar proyectos desde una perspectiva completa: desde la concepción técnica hasta la viabilidad comercial.\n\nMe apasiona la tecnología, el emprendimiento y la creación de soluciones que impacten positivamente en las personas y las organizaciones.",
+  "photoUrl": "/images/profile.jpg",
+  "email": "contacto@jesusbarros.com",
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/in/jesusbarros",
+    "github": "https://github.com/jesusbarros",
+    "instagram": "https://instagram.com/jesusbarros",
+    "youtube": "https://youtube.com/@jesusbarros"
+  }
+}

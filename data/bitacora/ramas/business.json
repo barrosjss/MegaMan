@@ -1,0 +1,12 @@
+{
+  "id": "business",
+  "title": "Negocios y Emprendimiento",
+  "description": "Estrategias de negocio, emprendimiento y gestión para profesionales y emprendedores.",
+  "category": "business",
+  "level": "intermediate",
+  "coverImage": "/images/courses/business.jpg",
+  "isPublished": false,
+  "publishedAt": null,
+  "updatedAt": "2024-02-17",
+  "courses": []
+}

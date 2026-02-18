@@ -1,0 +1,7 @@
+{
+  "/(public)/bitacora/tema/[topicId]/page": "app/(public)/bitacora/tema/[topicId]/page.js",
+  "/(public)/bitacora/rama/[id]/page": "app/(public)/bitacora/rama/[id]/page.js",
+  "/page": "app/page.js",
+  "/(public)/bitacora/page": "app/(public)/bitacora/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

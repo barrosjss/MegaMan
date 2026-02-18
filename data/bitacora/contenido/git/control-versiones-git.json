@@ -1,0 +1,101 @@
+{
+  "id": "control-versiones-git",
+  "pathId": "software-development",
+  "title": "Control de Versiones con Git",
+  "description": "Domina Git y GitHub para el control de versiones y trabajo colaborativo en equipo.",
+  "level": "beginner",
+  "duration": "8 horas",
+  "isPublished": true,
+  "publishedAt": "2024-02-17",
+  "updatedAt": "2024-02-17",
+  "topics": [
+    {
+      "id": "fundamentos-computacion",
+      "title": "Fundamentos de Computación",
+      "order": 1,
+      "duration": "30 min",
+      "isPublished": true,
+      "description": "Conceptos básicos de software, algoritmos y programas."
+    },
+    {
+      "id": "terminal-linea-comandos",
+      "title": "La Terminal (Línea de Comandos)",
+      "order": 2,
+      "duration": "45 min",
+      "isPublished": true,
+      "description": "Uso de la terminal, comandos básicos y navegación del sistema."
+    },
+    {
+      "id": "introduccion-control-versiones",
+      "title": "Introducción al Control de Versiones",
+      "order": 3,
+      "duration": "30 min",
+      "isPublished": true,
+      "description": "Definición de SCV, conceptos clave y diferencia entre Git y GitHub."
+    },
+    {
+      "id": "configuracion-flujo-local",
+      "title": "Configuración y Flujo Local Básico",
+      "order": 4,
+      "duration": "60 min",
+      "isPublished": true,
+      "description": "Configuración inicial, estados de archivos, staging area y comandos básicos."
+    },
+    {
+      "id": "ramas-fusion",
+      "title": "Gestión de Ramas y Fusión",
+      "order": 5,
+      "duration": "60 min",
+      "isPublished": true,
+      "description": "Concepto de ramas, operaciones con ramas e integración de cambios."
+    },
+    {
+      "id": "resolucion-conflictos",
+      "title": "Resolución de Conflictos",
+      "order": 6,
+      "duration": "45 min",
+      "isPublished": true,
+      "description": "Naturaleza de los conflictos, tipos y estrategias de resolución."
+    },
+    {
+      "id": "historial-navegacion",
+      "title": "Historial y Navegación Avanzada",
+      "order": 7,
+      "duration": "45 min",
+      "isPublished": true,
+      "description": "Inspección del repositorio, etiquetas y alias de Git."
+    },
+    {
+      "id": "colaboracion-remotos",
+      "title": "Colaboración y Repositorios Remotos",
+      "order": 8,
+      "duration": "75 min",
+      "isPublished": true,
+      "description": "Conexión remota, clonación, SSH y flujo de trabajo en GitHub."
+    },
+    {
+      "id": "git-intermedio-recuperacion",
+      "title": "Git Intermedio y Recuperación",
+      "order": 9,
+      "duration": "60 min",
+      "isPublished": true,
+      "description": "Deshacer cambios, stash, rebase, cherry-pick y reflog."
+    },
+    {
+      "id": "estrategias-workflow",
+      "title": "Estrategias de Trabajo (Workflows)",
+      "order": 10,
+      "duration": "45 min",
+      "isPublished": true,
+      "description": "Gitflow y GitHub Flow como estrategias de trabajo en equipo."
+    },
+    {
+      "id": "herramientas-ecosistema",
+      "title": "Herramientas y Ecosistema",
+      "order": 11,
+      "duration": "45 min",
+      "isPublished": true,
+      "description": "IDEs, GUIs, Markdown y herramientas adicionales de GitHub."
+    }
+  ]
+}

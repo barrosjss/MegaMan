@@ -1,0 +1,15 @@
+{
+  "id": "fundamentos-computacion",
+  "courseId": "control-versiones-git",
+  "title": "Fundamentos de Computación",
+  "order": 1,
+  "duration": "30 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "conceptos-basicos-software",
+      "title": "Conceptos Básicos de Software",
+      "content": "## ¿Qué es el Software?\n\nEl software es el conjunto de programas, datos e instrucciones que permiten a una computadora realizar tareas específicas. A diferencia del hardware (componentes físicos), el software es intangible.\n\n### Clasificación del Software\n\n#### 1. Software de Sistema\n- **Sistemas operativos**: Windows, macOS, Linux\n- **Drivers**: Controladores de dispositivos\n- **Utilidades**: Herramientas de mantenimiento\n\n#### 2. Software de Aplicación\n- **Productividad**: Microsoft Office, Google Workspace\n- **Desarrollo**: IDEs, editores de código\n- **Entretenimiento**: Navegadores, reproductores multimedia\n- **Especializado**: Software para ingeniería, diseño, etc.\n\n### Algoritmos\n\nUn **algoritmo** es una secuencia finita de pasos bien definidos que resuelven un problema específico. Es la base de todo programa informático.\n\n**Características de un algoritmo:**\n- **Finitud**: Debe terminar en algún momento\n- **Definición**: Cada paso debe ser claro y preciso\n- **Entrada**: Puede recibir datos de entrada\n- **Salida**: Produce un resultado\n- **Efectividad**: Las operaciones deben ser realizables\n\n**Ejemplo de algoritmo (pseudocódigo):**\n```\nINICIO\n  Leer número1\n  Leer número2\n  suma = número1 + número2\n  Mostrar suma\nFIN\n```\n\n### Programas y Lenguajes de Programación\n\nUn **programa** es la implementación concreta de uno o más algoritmos en un lenguaje de programación específico.\n\n**Tipos de lenguajes:**\n- **De bajo nivel**: Assembly, lenguaje máquina\n- **De alto nivel**: Python, JavaScript, Java, C++\n- **De muy alto nivel**: Python, Ruby (más cercanos al lenguaje humano)"
+    }
+  ]
+}

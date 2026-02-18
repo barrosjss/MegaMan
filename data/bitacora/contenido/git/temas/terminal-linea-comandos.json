@@ -1,0 +1,35 @@
+{
+  "id": "terminal-linea-comandos",
+  "courseId": "control-versiones-git",
+  "title": "La Terminal (Línea de Comandos)",
+  "order": 2,
+  "duration": "45 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "introduccion-terminal",
+      "title": "La Terminal: Tu Mejor Aliada",
+      "content": "## ¿Qué es la Terminal?\n\nLa terminal (también llamada consola, shell o CLI - Command Line Interface) es una interfaz de texto que permite interactuar con el sistema operativo mediante comandos. En lugar de hacer clic en botones y menús, escribes comandos para realizar cualquier tarea.\n\n### ¿Por qué usar la terminal?\n\n- **Eficiencia**: Realizar tareas más rápido que con interfaz gráfica\n- **Automatización**: Crear scripts para tareas repetitivas\n- **Control total**: Acceso a funciones avanzadas del sistema\n- **Desarrollo**: Herramientas como Git funcionan mejor en terminal\n- **Servidores**: La mayoría de servidores solo tienen acceso por terminal\n\n### Tipos de Shell\n\n- **Bash**: El más común en Linux y macOS\n- **Zsh**: Shell moderno, ahora por defecto en macOS\n- **PowerShell**: Shell de Windows\n- **Fish**: Shell amigable con autocompletado"
+    },
+    {
+      "id": "comandos-navegacion",
+      "title": "Comandos de Navegación",
+      "content": "## Navegando el Sistema de Archivos\n\nEstos comandos te permiten moverte entre carpetas y ver su contenido.\n\n### Comandos Esenciales\n\n| Comando | Descripción | Ejemplo |\n|---------|-------------|---------|\n| `pwd` | Muestra la ruta actual | `pwd` |\n| `ls` | Lista archivos y carpetas | `ls -la` |\n| `cd` | Cambiar de directorio | `cd Documents` |\n| `cd ..` | Subir un nivel | `cd ..` |\n| `cd ~` | Ir al directorio home | `cd ~` |\n| `cd -` | Ir al directorio anterior | `cd -` |\n\n### Opciones útiles de ls\n\n```bash\nls -la    # Lista detallada con archivos ocultos\nls -lh    # Tamaños legibles (KB, MB, GB)\nls -ltr   # Ordenado por fecha, más reciente al final\n```\n\n### Atajos de navegación\n\n| Atajo | Significado |\n|-------|-------------|\n| `~` | Directorio home del usuario |\n| `.` | Directorio actual |\n| `..` | Directorio padre |\n| `-` | Directorio anterior |\n| `Tab` | Autocompletar nombres |\n| `↑` / `↓` | Historial de comandos |"
+    },
+    {
+      "id": "comandos-archivos",
+      "title": "Gestión de Archivos y Carpetas",
+      "content": "## Trabajando con Archivos\n\n### Crear y Eliminar\n\n| Comando | Descripción | Ejemplo |\n|---------|-------------|---------|\n| `mkdir` | Crear carpeta | `mkdir mi-proyecto` |\n| `touch` | Crear archivo vacío | `touch README.md` |\n| `rm` | Eliminar archivo | `rm archivo.txt` |\n| `rm -r` | Eliminar carpeta | `rm -r carpeta/` |\n| `rm -rf` | Eliminar forzado | `rm -rf carpeta/` |\n\n### Copiar y Mover\n\n| Comando | Descripción | Ejemplo |\n|---------|-------------|---------|\n| `cp` | Copiar archivo | `cp archivo.txt destino/` |\n| `cp -r` | Copiar carpeta | `cp -r src/ backup/` |\n| `mv` | Mover o renombrar | `mv viejo.txt nuevo.txt` |\n\n### Ver Contenido\n\n| Comando | Descripción | Uso |\n|---------|-------------|-----|\n| `cat` | Muestra todo el contenido | `cat archivo.txt` |\n| `less` | Navega contenido largo | `less archivo.txt` |\n| `head` | Primeras 10 líneas | `head -n 20 archivo.txt` |\n| `tail` | Últimas 10 líneas | `tail -f log.txt` |\n| `clear` | Limpia la pantalla | `clear` |\n\n### Atajos útiles\n\n- `Ctrl + C`: Cancelar comando en ejecución\n- `Ctrl + L`: Limpiar pantalla (igual que `clear`)\n- `Ctrl + A`: Ir al inicio de la línea\n- `Ctrl + E`: Ir al final de la línea\n- `Ctrl + U`: Borrar línea completa\n- `Ctrl + R`: Buscar en historial"
+    },
+    {
+      "id": "vscode-terminal",
+      "title": "Integración con VS Code",
+      "content": "## Abrir VS Code desde la Terminal\n\nEl comando `code` te permite abrir Visual Studio Code directamente desde la terminal.\n\n### Comandos útiles\n\n```bash\n# Abrir directorio actual en VS Code\ncode .\n\n# Abrir archivo específico\ncode archivo.txt\n\n# Abrir en nueva ventana\ncode -n .\n\n# Comparar dos archivos\ncode -d archivo1.txt archivo2.txt\n```\n\n### Configuración\n\n**macOS:**\n1. Abrir VS Code\n2. Presionar `Cmd + Shift + P`\n3. Escribir: **Shell Command: Install 'code' command in PATH**\n4. Presionar Enter\n\n**Windows:**\nSe instala automáticamente con la instalación estándar.\n\n**Linux:**\n```bash\nsudo ln -s /usr/share/code/bin/code /usr/local/bin/code\n```"
+    },
+    {
+      "id": "ejercicio-practico",
+      "title": "Ejercicio Práctico",
+      "content": "## Practica lo Aprendido\n\nSigue estos pasos para practicar los comandos de terminal:\n\n### Paso 1: Crear estructura de proyecto\n\n```bash\n# Ir al directorio de documentos\ncd ~/Documents\n\n# Crear carpeta del proyecto\nmkdir practica-terminal\n\n# Entrar en la carpeta\ncd practica-terminal\n\n# Verificar ruta actual\npwd\n```\n\n### Paso 2: Crear archivos\n\n```bash\n# Crear archivo README\ntouch README.md\n\n# Crear carpetas\nmkdir src\nmkdir docs\n\n# Crear archivo dentro de src\ntouch src/main.js\n```\n\n### Paso 3: Navegar y explorar\n\n```bash\n# Listar contenido\nls -la\n\n# Ver contenido de src\nls src/\n\n# Volver a carpeta anterior\ncd ..\n\n# Volver a practica-terminal\ncd -\n```\n\n### Paso 4: Abrir en VS Code\n\n```bash\n# Abrir proyecto completo\ncode .\n```\n\n### Desafío adicional\n\n1. Crea una carpeta `backup`\n2. Copia `src/main.js` a `backup/`\n3. Renombra `README.md` a `LEEME.md`\n4. Elimina la carpeta `docs`\n5. Lista todo el contenido con detalles"
+    }
+  ]
+}
