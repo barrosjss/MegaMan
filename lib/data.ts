@@ -33,7 +33,7 @@ const convertTopicsToLessons = (courseData: CourseContent): CourseLessons => {
   };
 };
 
-const logicaProgramacion = convertTopicsToLessons(logicaProgramacionOriginal);
+const logicaProgramacion = convertTopicsToLessons(logicaProgramacionOriginal as CourseContent);
 import logicaProgramacionContent from "@/data/bitacora/contenido/logica/logica-programacion.json";
 import gitFundamentos from "@/data/bitacora/contenido/git/temas/fundamentos-computacion.json";
 import gitTerminal from "@/data/bitacora/contenido/git/temas/terminal-linea-comandos.json";
