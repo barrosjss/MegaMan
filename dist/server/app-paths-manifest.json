@@ -1,8 +1,7 @@
 {
-  "/(public)/bitacora/curso/[courseId]/page": "app/(public)/bitacora/curso/[courseId]/page.js",
-  "/(public)/bitacora/rama/[id]/page": "app/(public)/bitacora/rama/[id]/page.js",
-  "/(public)/bitacora/[slug]/page": "app/(public)/bitacora/[slug]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(public)/bitacora/page": "app/(public)/bitacora/page.js",
-  "/(public)/bitacora/tema/[topicId]/page": "app/(public)/bitacora/tema/[topicId]/page.js"
+  "/(public)/bitacora/rama/[id]/page": "app/(public)/bitacora/rama/[id]/page.js",
+  "/(public)/bitacora/curso/[courseId]/page": "app/(public)/bitacora/curso/[courseId]/page.js",
+  "/(public)/bitacora/tema/[topicId]/page": "app/(public)/bitacora/tema/[topicId]/page.js",
+  "/(public)/bitacora/[slug]/page": "app/(public)/bitacora/[slug]/page.js"
 }

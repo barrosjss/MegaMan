@@ -1,4 +1,13 @@
-import { LearningPath, CourseLessons, Profile, Experience, Skill, CourseContent, TopicContent } from "@/types";
+import {
+  LearningPath,
+  CourseLessons,
+  Profile,
+  Experience,
+  Skill,
+  CourseContent,
+  CourseTopic,
+  TopicContent,
+} from "@/types";
 import softwareDevelopment from "@/data/bitacora/ramas/software-development.json";
 import personalGrowth from "@/data/bitacora/ramas/personal-growth.json";
 import business from "@/data/bitacora/ramas/business.json";
@@ -8,19 +17,19 @@ import logicaProgramacionOriginal from "@/data/bitacora/contenido/logica/logica-
 import gitCourseContent from "@/data/bitacora/contenido/git/control-versiones-git.json";
 
 // Convert the new format (topics) to legacy format (lessons)
-const convertTopicsToLessons = (courseData: any): CourseLessons => {
+const convertTopicsToLessons = (courseData: CourseContent): CourseLessons => {
   return {
     courseId: courseData.id,
     title: courseData.title,
-    lessons: courseData.topics.map((topic: any) => ({
+    lessons: courseData.topics.map((topic: CourseTopic) => ({
       id: topic.id,
       title: topic.title,
-      type: 'article',
+      type: "article",
       duration: parseInt(topic.duration) || 90,
       order: topic.order,
       isPublished: topic.isPublished,
-      content: topic.description || ''
-    }))
+      content: topic.description || "",
+    })),
   };
 };
 
@@ -54,8 +63,6 @@ const learningPaths: LearningPath[] = [
   business as LearningPath,
   papers as LearningPath,
 ];
-
-
 
 // Legacy lessons data (old structure)
 const lessonsData: Record<string, CourseLessons> = {
@@ -103,7 +110,9 @@ export function getCourseBySlug(pathId: string, courseSlug: string) {
   return path.courses.find((course) => course.id === courseSlug);
 }
 
-export function getLessonsByCourseId(courseId: string): CourseLessons | undefined {
+export function getLessonsByCourseId(
+  courseId: string,
+): CourseLessons | undefined {
   return lessonsData[courseId];
 }
 
