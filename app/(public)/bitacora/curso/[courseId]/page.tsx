@@ -21,6 +21,7 @@ interface Props {
 export function generateStaticParams() {
   return [
     { courseId: "control-versiones-git" },
+    { courseId: "logica-programacion" },
   ];
 }
 

@@ -1,0 +1,15 @@
+{
+  "id": "lp-m2-t7",
+  "courseId": "logica-programacion",
+  "title": "Optimización de Flujos",
+  "order": 7,
+  "duration": "90 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "introduccion",
+      "title": "Introducción al Tema",
+      "content": "## Optimización de Flujos\n\nEste contenido está siendo desarrollado con el rigor NASA que caracteriza este curso.\n\n### Objetivo de Aprendizaje\n\nAl completar este tema, serás capaz de:\n- Comprender los fundamentos teóricos\n- Aplicar los conceptos en problemas prácticos\n- Diseñar soluciones siguiendo estándares de ingeniería\n\n### Estructura del Contenido\n\n1. **Fundamentos teóricos** - Entendiendo el porqué\n2. **Análisis de casos** - Ejemplos del mundo real\n3. **Ejercicios prácticos** - Aplicación de conceptos\n4. **Proyecto integrador** - Síntesis de conocimientos\n\n---\n\n**Nota**: Este es un curso vivo que se actualiza constantemente. El contenido detallado estará disponible próximamente."
+    }
+  ]
+}

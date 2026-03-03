@@ -3,10 +3,47 @@ import softwareDevelopment from "@/data/bitacora/ramas/software-development.json
 import personalGrowth from "@/data/bitacora/ramas/personal-growth.json";
 import business from "@/data/bitacora/ramas/business.json";
 import papers from "@/data/bitacora/ramas/papers.json";
-import logicaProgramacion from "@/data/bitacora/lecciones/logica-programacion.json";
+
+import logicaProgramacionOriginal from "@/data/bitacora/contenido/logica/logica-programacion.json";
 import gitCourseContent from "@/data/bitacora/contenido/git/control-versiones-git.json";
+
+// Convert the new format (topics) to legacy format (lessons)
+const convertTopicsToLessons = (courseData: any): CourseLessons => {
+  return {
+    courseId: courseData.id,
+    title: courseData.title,
+    lessons: courseData.topics.map((topic: any) => ({
+      id: topic.id,
+      title: topic.title,
+      type: 'article',
+      duration: parseInt(topic.duration) || 90,
+      order: topic.order,
+      isPublished: topic.isPublished,
+      content: topic.description || ''
+    }))
+  };
+};
+
+const logicaProgramacion = convertTopicsToLessons(logicaProgramacionOriginal);
+import logicaProgramacionContent from "@/data/bitacora/contenido/logica/logica-programacion.json";
 import gitFundamentos from "@/data/bitacora/contenido/git/temas/fundamentos-computacion.json";
 import gitTerminal from "@/data/bitacora/contenido/git/temas/terminal-linea-comandos.json";
+import lpM1T1 from "@/data/bitacora/contenido/logica/temas/lp-m1-t1.json";
+import lpM1T2 from "@/data/bitacora/contenido/logica/temas/lp-m1-t2.json";
+import lpM1T3 from "@/data/bitacora/contenido/logica/temas/lp-m1-t3.json";
+import lpM1T4 from "@/data/bitacora/contenido/logica/temas/lp-m1-t4.json";
+import lpM2T5 from "@/data/bitacora/contenido/logica/temas/lp-m2-t5.json";
+import lpM2T6 from "@/data/bitacora/contenido/logica/temas/lp-m2-t6.json";
+import lpM2T7 from "@/data/bitacora/contenido/logica/temas/lp-m2-t7.json";
+import lpM2T8 from "@/data/bitacora/contenido/logica/temas/lp-m2-t8.json";
+import lpM3T9 from "@/data/bitacora/contenido/logica/temas/lp-m3-t9.json";
+import lpM3T10 from "@/data/bitacora/contenido/logica/temas/lp-m3-t10.json";
+import lpM3T11 from "@/data/bitacora/contenido/logica/temas/lp-m3-t11.json";
+import lpM3T12 from "@/data/bitacora/contenido/logica/temas/lp-m3-t12.json";
+import lpM4T13 from "@/data/bitacora/contenido/logica/temas/lp-m4-t13.json";
+import lpM4T14 from "@/data/bitacora/contenido/logica/temas/lp-m4-t14.json";
+import lpM4T15 from "@/data/bitacora/contenido/logica/temas/lp-m4-t15.json";
+import lpM4T16 from "@/data/bitacora/contenido/logica/temas/lp-m4-t16.json";
 import profileData from "@/data/profile/profile.json";
 import experienceData from "@/data/profile/experience.json";
 import skillsData from "@/data/profile/skills.json";
@@ -18,6 +55,9 @@ const learningPaths: LearningPath[] = [
   papers as LearningPath,
 ];
 
+
+
+// Legacy lessons data (old structure)
 const lessonsData: Record<string, CourseLessons> = {
   "logica-programacion": logicaProgramacion as CourseLessons,
 };
@@ -25,11 +65,28 @@ const lessonsData: Record<string, CourseLessons> = {
 // Course content data (new modular structure)
 const courseContentData: Record<string, CourseContent> = {
   "control-versiones-git": gitCourseContent as CourseContent,
+  "logica-programacion": logicaProgramacionContent as CourseContent,
 };
 
 const topicContentData: Record<string, TopicContent> = {
   "fundamentos-computacion": gitFundamentos as TopicContent,
   "terminal-linea-comandos": gitTerminal as TopicContent,
+  "lp-m1-t1": lpM1T1 as TopicContent,
+  "lp-m1-t2": lpM1T2 as TopicContent,
+  "lp-m1-t3": lpM1T3 as TopicContent,
+  "lp-m1-t4": lpM1T4 as TopicContent,
+  "lp-m2-t5": lpM2T5 as TopicContent,
+  "lp-m2-t6": lpM2T6 as TopicContent,
+  "lp-m2-t7": lpM2T7 as TopicContent,
+  "lp-m2-t8": lpM2T8 as TopicContent,
+  "lp-m3-t9": lpM3T9 as TopicContent,
+  "lp-m3-t10": lpM3T10 as TopicContent,
+  "lp-m3-t11": lpM3T11 as TopicContent,
+  "lp-m3-t12": lpM3T12 as TopicContent,
+  "lp-m4-t13": lpM4T13 as TopicContent,
+  "lp-m4-t14": lpM4T14 as TopicContent,
+  "lp-m4-t15": lpM4T15 as TopicContent,
+  "lp-m4-t16": lpM4T16 as TopicContent,
 };
 
 export function getAllLearningPaths(): LearningPath[] {

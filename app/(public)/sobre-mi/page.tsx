@@ -4,7 +4,7 @@ import {
   Github, Linkedin, Instagram, Youtube, Mail, 
   Code, Lightbulb, Briefcase,
   Briefcase as WorkIcon, GraduationCap, Heart, Calendar,
-  Star
+  Star, MapPin, CheckCircle2
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -234,9 +234,9 @@ export default function SobreMiPage() {
                       </h3>
                     </div>
 
-                    <div className="space-y-6 ml-4 pl-6 border-l-2 border-border">
+                    <div className="space-y-8 ml-4 pl-6 border-l-2 border-border">
                       {typeExperiences.map((exp) => (
-                        <div key={exp.id} className="pb-6">
+                        <div key={exp.id} className="pb-8">
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
                             <h4 className="text-lg font-semibold text-foreground">
                               {exp.role}
@@ -248,12 +248,46 @@ export default function SobreMiPage() {
                               </span>
                             </div>
                           </div>
-                          <p className="text-accent-silver font-medium mb-2">
+                          <p className="text-accent-silver font-medium mb-1">
                             {exp.company}
                           </p>
-                          <p className="text-muted-foreground leading-relaxed">
+                          {exp.location && (
+                            <div className="flex items-center gap-1 text-sm text-muted-foreground mb-3">
+                              <MapPin size={12} />
+                              <span>{exp.location}</span>
+                            </div>
+                          )}
+                          <p className="text-muted-foreground leading-relaxed mb-4">
                             {exp.description}
                           </p>
+                          
+                          {/* Highlights */}
+                          {exp.highlights && exp.highlights.length > 0 && (
+                            <div className="mb-4">
+                              <ul className="space-y-2">
+                                {exp.highlights.map((highlight, idx) => (
+                                  <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
+                                    <CheckCircle2 size={14} className="text-accent-blue mt-0.5 flex-shrink-0" />
+                                    <span>{highlight}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+                          
+                          {/* Skills */}
+                          {exp.skills && exp.skills.length > 0 && (
+                            <div className="flex flex-wrap gap-2">
+                              {exp.skills.map((skill, idx) => (
+                                <span
+                                  key={idx}
+                                  className="px-3 py-1 text-xs bg-accent-blue/10 text-accent-blue rounded-full"
+                                >
+                                  {skill}
+                                </span>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       ))}
                     </div>

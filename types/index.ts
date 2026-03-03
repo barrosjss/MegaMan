@@ -41,8 +41,11 @@ export interface Profile {
   name: string;
   tagline: string;
   bio: string;
+  location: string;
   photoUrl: string;
   email: string;
+  phone: string;
+  phone2?: string;
   socialLinks: {
     linkedin: string;
     github: string;
@@ -59,6 +62,9 @@ export interface Experience {
   endDate: string | null;
   description: string;
   type: 'work' | 'education' | 'volunteer';
+  location?: string;
+  highlights?: string[];
+  skills?: string[];
 }
 
 export interface Skill {
@@ -67,6 +73,19 @@ export interface Skill {
   category: string;
   level: number;
   icon: string;
+}
+
+export interface Certification {
+  id: string;
+  name: string;
+  organization: string;
+  year: string;
+  url?: string;
+}
+
+export interface SkillsData {
+  skills: Skill[];
+  certifications: Certification[];
 }
 
 // New modular content types for Bitacora

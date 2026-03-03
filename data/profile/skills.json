@@ -2,108 +2,180 @@
   "skills": [
     {
       "id": "1",
-      "name": "React",
-      "category": "Frontend",
+      "name": "Gestión de Proyectos Ágiles",
+      "category": "Gestión",
+      "level": 5,
+      "icon": "users"
+    },
+    {
+      "id": "2",
+      "name": "Scrum & Kanban",
+      "category": "Gestión",
+      "level": 5,
+      "icon": "users"
+    },
+    {
+      "id": "3",
+      "name": "Product Management",
+      "category": "Gestión",
+      "level": 4,
+      "icon": "briefcase"
+    },
+    {
+      "id": "4",
+      "name": "Liderazgo de Equipos",
+      "category": "Gestión",
+      "level": 5,
+      "icon": "users"
+    },
+    {
+      "id": "5",
+      "name": "React & React Native",
+      "category": "Desarrollo",
       "level": 5,
       "icon": "react"
     },
     {
-      "id": "2",
-      "name": "TypeScript",
-      "category": "Frontend",
-      "level": 5,
-      "icon": "typescript"
-    },
-    {
-      "id": "3",
+      "id": "6",
       "name": "Next.js",
-      "category": "Frontend",
-      "level": 4,
+      "category": "Desarrollo",
+      "level": 5,
       "icon": "nextjs"
     },
     {
-      "id": "4",
-      "name": "TailwindCSS",
-      "category": "Frontend",
-      "level": 5,
-      "icon": "tailwind"
-    },
-    {
-      "id": "5",
-      "name": "Node.js",
-      "category": "Backend",
+      "id": "7",
+      "name": "TypeScript",
+      "category": "Desarrollo",
       "level": 4,
-      "icon": "nodejs"
+      "icon": "typescript"
     },
     {
-      "id": "6",
+      "id": "8",
       "name": "Python",
-      "category": "Backend",
+      "category": "Desarrollo",
       "level": 4,
       "icon": "python"
     },
     {
-      "id": "7",
-      "name": "PostgreSQL",
-      "category": "Database",
-      "level": 4,
-      "icon": "postgresql"
-    },
-    {
-      "id": "8",
-      "name": "MongoDB",
-      "category": "Database",
-      "level": 3,
-      "icon": "mongodb"
-    },
-    {
       "id": "9",
-      "name": "Git",
-      "category": "Tools",
+      "name": "Node.js",
+      "category": "Desarrollo",
+      "level": 4,
+      "icon": "nodejs"
+    },
+    {
+      "id": "10",
+      "name": "TailwindCSS",
+      "category": "Desarrollo",
+      "level": 5,
+      "icon": "tailwind"
+    },
+    {
+      "id": "11",
+      "name": "Jira & Trello",
+      "category": "Herramientas",
+      "level": 5,
+      "icon": "briefcase"
+    },
+    {
+      "id": "12",
+      "name": "Notion",
+      "category": "Herramientas",
+      "level": 5,
+      "icon": "filetext"
+    },
+    {
+      "id": "13",
+      "name": "Git & GitHub",
+      "category": "Herramientas",
       "level": 5,
       "icon": "git"
     },
     {
-      "id": "10",
-      "name": "Docker",
-      "category": "Tools",
-      "level": 3,
-      "icon": "docker"
-    },
-    {
-      "id": "11",
-      "name": "AWS",
-      "category": "Cloud",
-      "level": 3,
-      "icon": "aws"
-    },
-    {
-      "id": "12",
-      "name": "Gestión de Proyectos",
-      "category": "Soft Skills",
-      "level": 4,
-      "icon": "users"
-    },
-    {
-      "id": "13",
-      "name": "Liderazgo de Equipos",
-      "category": "Soft Skills",
-      "level": 4,
-      "icon": "users"
-    },
-    {
       "id": "14",
-      "name": "Pensamiento Estratégico",
-      "category": "Soft Skills",
+      "name": "CI/CD",
+      "category": "Herramientas",
+      "level": 4,
+      "icon": "git"
+    },
+    {
+      "id": "15",
+      "name": "Power BI",
+      "category": "Análisis de Datos",
+      "level": 4,
+      "icon": "briefcase"
+    },
+    {
+      "id": "16",
+      "name": "Big Data",
+      "category": "Análisis de Datos",
+      "level": 3,
+      "icon": "database"
+    },
+    {
+      "id": "17",
+      "name": "Transformación Digital",
+      "category": "Consultoría",
       "level": 5,
       "icon": "message"
     },
     {
-      "id": "15",
-      "name": "Modelos de Negocio",
-      "category": "Soft Skills",
+      "id": "18",
+      "name": "Estrategia de Negocio",
+      "category": "Consultoría",
       "level": 4,
       "icon": "briefcase"
+    },
+    {
+      "id": "19",
+      "name": "Emprendimiento",
+      "category": "Consultoría",
+      "level": 5,
+      "icon": "briefcase"
+    },
+    {
+      "id": "20",
+      "name": "Inglés (Intermedio)",
+      "category": "Idiomas",
+      "level": 3,
+      "icon": "message"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "Programa Emprelatam Aceleración ECL",
+      "organization": "Emprelatam",
+      "year": "2025",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "name": "Startup Boost Lab – Investment Readiness",
+      "organization": "B Venture Capital (BVC)",
+      "year": "2025",
+      "url": ""
+    },
+    {
+      "id": "3",
+      "name": "Agile Scrum Master",
+      "organization": "Platzi",
+      "year": "2024",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "name": "Certified Data Scientist",
+      "organization": "Universidad Libre",
+      "year": "2023",
+      "url": ""
+    },
+    {
+      "id": "5",
+      "name": "Python (Basic)",
+      "organization": "HackerRank",
+      "year": "2021",
+      "url": ""
     }
   ]
 }

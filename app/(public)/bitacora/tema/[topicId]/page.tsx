@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getTopicContent, getCourseContent } from "@/lib/data";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import { 
   Code, 
   Users, 
@@ -22,6 +23,22 @@ export function generateStaticParams() {
   return [
     { topicId: "fundamentos-computacion" },
     { topicId: "terminal-linea-comandos" },
+    { topicId: "lp-m1-t1" },
+    { topicId: "lp-m1-t2" },
+    { topicId: "lp-m1-t3" },
+    { topicId: "lp-m1-t4" },
+    { topicId: "lp-m2-t5" },
+    { topicId: "lp-m2-t6" },
+    { topicId: "lp-m2-t7" },
+    { topicId: "lp-m2-t8" },
+    { topicId: "lp-m3-t9" },
+    { topicId: "lp-m3-t10" },
+    { topicId: "lp-m3-t11" },
+    { topicId: "lp-m3-t12" },
+    { topicId: "lp-m4-t13" },
+    { topicId: "lp-m4-t14" },
+    { topicId: "lp-m4-t15" },
+    { topicId: "lp-m4-t16" },
   ];
 }
 
@@ -75,6 +92,24 @@ export default function TemaPage({ params }: Props) {
     bgColor: "bg-accent-blue/10" 
   };
 
+  // Function to process content and replace video tags with iframe HTML
+  const processContent = (content: string): string => {
+    // Replace [VIDEO: ...] format with iframe HTML
+    return content.replace(/\[VIDEO: (.*?)\]/g, (match, videoUrl) => {
+      return `<div class="relative w-full aspect-video my-8">
+              <iframe
+                src="${videoUrl}"
+                width="100%"
+                height="100%"
+                title="Video de introducción"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="absolute inset-0 w-full h-full rounded-lg"
+              ></iframe>
+            </div>`;
+    });
+  };
+
   return (
     <div className="min-h-screen bg-background">
       {/* Breadcrumb */}
@@ -118,18 +153,18 @@ export default function TemaPage({ params }: Props) {
             <article className="prose prose-invert prose-lg max-w-none">
               {topic.sections.map((section) => (
                 <div key={section.id} className="mb-12">
-                  <h2 className="text-2xl font-bold text-foreground mb-6">
+                  <h2 className="text-3xl font-bold text-foreground pb-4 border-b border-border/30">
                     {section.title}
                   </h2>
                   <div className="markdown-content">
-                    <ReactMarkdown 
+                    <ReactMarkdown
                       remarkPlugins={[remarkGfm]}
+                      rehypePlugins={[rehypeRaw]}
                       components={{
                         h1: ({ children }) => <h1 className="text-3xl font-bold text-foreground mt-8 mb-4">{children}</h1>,
                         h2: ({ children }) => <h2 className="text-2xl font-bold text-foreground mt-8 mb-4">{children}</h2>,
                         h3: ({ children }) => <h3 className="text-xl font-bold text-foreground mt-6 mb-3">{children}</h3>,
                         h4: ({ children }) => <h4 className="text-lg font-bold text-foreground mt-4 mb-2">{children}</h4>,
-                        p: ({ children }) => <p className="text-muted-foreground leading-relaxed mb-4">{children}</p>,
                         ul: ({ children }) => <ul className="list-disc list-inside space-y-2 mb-4 text-muted-foreground">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside space-y-2 mb-4 text-muted-foreground">{children}</ol>,
                         li: ({ children }) => <li className="ml-4">{children}</li>,
@@ -150,9 +185,23 @@ export default function TemaPage({ params }: Props) {
                         td: ({ children }) => <td className="border border-border px-4 py-2 text-muted-foreground">{children}</td>,
                         blockquote: ({ children }) => <blockquote className="border-l-4 border-accent-blue pl-4 italic my-4 text-muted-foreground">{children}</blockquote>,
                         a: ({ children, href }) => <a href={href} className="text-accent-blue hover:underline">{children}</a>,
+                        iframe: ({ src, width, height, title, allow, allowFullScreen }) => (
+                          <div className="relative w-full aspect-video my-8">
+                            <iframe
+                              src={src}
+                              width={width || "100%"}
+                              height={height || "100%"}
+                              title={title}
+                              allow={allow}
+                              allowFullScreen={allowFullScreen}
+                              className="absolute inset-0 w-full h-full rounded-lg"
+                            />
+                          </div>
+                        ),
+
                       }}
                     >
-                      {section.content}
+                      {processContent(section.content)}
                     </ReactMarkdown>
                   </div>
                 </div>

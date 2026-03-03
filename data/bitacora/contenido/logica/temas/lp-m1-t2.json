@@ -1,0 +1,25 @@
+{
+  "id": "lp-m1-t2",
+  "courseId": "logica-programacion",
+  "title": "Abstracción de Sistemas Reales",
+  "order": 2,
+  "duration": "90 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "concepto-abstraccion",
+      "title": "¿Qué es la Abstracción?",
+      "content": "## El Arte de Simplificar lo Complejo\n\n### Definición Formal\n\n**Abstracción** = El proceso de aislar mentalmente las cualidades esenciales de un objeto o sistema, ignorando sus cualidades accidentales o secundarias.\n\n> **Sistema**: Conjunto de elementos interrelacionados que trabajan juntos para alcanzar un objetivo común. Todo sistema tiene entradas, procesos, salidas y retroalimentación.\n>\n> **Ejemplo Natural**: El aparato digestivo humano es un sistema perfecto - recibe alimentos (entradas), los procesa para extraer nutrientes (procesos), produce energía y desechos (salidas), y regula la ingesta mediante sensación de hambre/saciedad (retroalimentación).\n\n### Analogía Práctica\n\nPiensa en un mapa GPS:\n- **No muestra** cada árbol, cada cable eléctrico, cada grieta en la acera\n- **Muestra solo** lo necesario para navegar: calles, puntos de interés, tráfico\n- **Es una simplificación** del mundo real que cumple un propósito específico\n\n### La Doble Cara de la Abstracción\n\n1. **Ventaja**: Permite manejar sistemas complejos\n2. **Riesgo**: Puedes omitir información crítica\n\n### En Programación\n\nCuando abstraes, decides:\n- **Qué mostrar** al usuario\n- **Qué ocultar** para simplificar\n- **Cómo estructurar** la interfaz entre capas" 
+    },
+    {
+      "id": "entidades-estados",
+      "title": "Entidades y Estados",
+      "content": "## El Lenguaje de los Sistemas\n\n### Entidad: El Sujeto del Sistema\n\nUna **entidad** es cualquier cosa que tiene identidad propia y puede existir independientemente.\n\n#### Ejemplos de Entidades\n- **Usuario** en un sistema bancario\n- **Pedido** en un ecommerce\n- **Sensor** en un sistema IoT\n- **Mensaje** en un chat\n\n### Estado: La Instantánea del Momento\n\nEl **estado** es el conjunto de valores que describen a una entidad en un momento específico.\n\n#### Ejemplo: Pedido en Ecommerce\n\n    Estado 1: 'Recibido'\n    Estado 2: 'En proceso'\n    Estado 3: 'Enviado'\n    Estado 4: 'Entregado'\n    Estado 5: 'Cancelado'\n\n### Relación entre Entidad y Estado\n\n- **Entidad** = Quién/Sobre quién\n- **Estado** = Cómo está en este momento\n- **Transición** = Cómo cambia de un estado a otro" 
+    },
+    {
+      "id": "modelado-sistemas",
+      "title": "Modelando Sistemas Reales",
+      "content": "## Del Mundo Real al Código\n\n### Paso 1: Identificar Entidades\n\n**Pregunta guía**: ¿Qué cosas importantes existen en este sistema?\n\n#### Ejemplo: Sistema de Biblioteca\n- **Entidad**: Libro\n- **Atributos**: ISBN, título, autor, estado\n- **Comportamientos**: Prestar, devolver, renovar\n\n### Paso 2: Definir Estados\n\n**Pregunta guía**: ¿En qué condiciones puede estar cada entidad?\n\n#### Estados del Libro\n- Disponible\n- Prestado\n- Reservado\n- Dañado\n- Extraviado\n\n### Paso 3: Mapear Transiciones\n\n**Pregunta guía**: ¿Cómo cambian las entidades de un estado a otro?\n\n#### Transiciones Válidas\n    Disponible → Prestado (cuando se presta)\n    Prestado → Disponible (cuando se devuelve)\n    Prestado → Dañado (si se devuelve dañado)\n\n### Reglas de Negocio\n\n- No puedes prestar un libro que no esté disponible\n- No puedes devolver un libro que no haya sido prestado\n- Solo puedes renovar un libro si está prestado y no ha sido renovado antes" 
+    }
+  ]
+}

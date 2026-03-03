@@ -1,7 +1,7 @@
 {
   "id": "software-development",
-  "title": "Técnico Laboral en Programación y Desarrollo de Software",
-  "description": "Formación completa en desarrollo de software, desde los fundamentos de programación hasta el desarrollo de aplicaciones web full-stack.",
+  "title": "Ingeniería de Sistemas",
+  "description": "En la era de la IA, saber sintaxis de Python es el equivalente moderno a saber usar una calculadora en los 90. Lo que realmente importa ahora es la capacidad de abstracción, el rigor sistémico y la curiosidad etimológica. Si un estudiante no sabe por qué un 'Buffer' se llama así (del inglés antiguo para 'amortiguar un golpe'), difícilmente entenderá su importancia crítica en la gestión de memoria y latencia.",
   "category": "dev",
   "level": "beginner",
   "coverImage": "/images/courses/software-development.jpg",

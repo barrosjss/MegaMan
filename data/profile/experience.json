@@ -1,49 +1,180 @@
 {
   "experiences": [
     {
-      "id": "1",
-      "company": "Empresa Tecnológica",
-      "role": "Ingeniero de Sistemas",
-      "startDate": "2022-03-01",
+      "id": "unisalamanca",
+      "company": "Universidad de Salamanca - Programa Intebien",
+      "role": "Profesor de Ingeniería de Sistemas",
+      "startDate": "2026-02-18",
       "endDate": null,
-      "description": "Diseño e implementación de soluciones tecnológicas empresariales. Gestión de proyectos de software, arquitectura de sistemas y liderazgo técnico de equipos multidisciplinarios.",
-      "type": "work"
+      "description": "Profesor de Ingeniería de Sistemas en el programa Intebien del estado. Imparto conocimientos en áreas de desarrollo de software, gestión de proyectos tecnológicos y metodologías ágiles.",
+      "type": "work",
+      "location": "Barranquilla, Colombia"
     },
     {
-      "id": "2",
-      "company": "Startup Propio",
-      "role": "Fundador & CEO",
-      "startDate": "2020-06-01",
+      "id": "hola-fomo",
+      "company": "Hola FOMO",
+      "role": "COO & Co-Founder",
+      "startDate": "2024-05-01",
       "endDate": null,
-      "description": "Fundador de startup tecnológica enfocada en soluciones digitales innovadoras. Desarrollo de estrategia de negocio, gestión de equipos y toma de decisiones ejecutivas.",
-      "type": "work"
+      "description": "Plataforma de gestión y distribución de eventos. Lidero la operación, la cultura organizacional y la estructura del equipo, así como las relaciones con stakeholders y el resguardo legal y financiero. Defino el roadmap técnico y la experiencia integral del usuario, con foco principal en UX/UI y frontend. Participo activamente en el desarrollo de la plataforma, apoyando al equipo en frontend y, cuando es necesario, en backend, base de datos e infraestructura.",
+      "type": "work",
+      "location": "Barranquilla, Colombia"
     },
     {
-      "id": "3",
-      "company": "Consultora de Tecnología",
-      "role": "Consultor de Sistemas",
+      "id": "novvos",
+      "company": "Novvos Taste",
+      "role": "Co-Propietario",
+      "startDate": "2025-08-01",
+      "endDate": null,
+      "description": "Restaurante con platos innovadores en Barranquilla. Iniciamos como cocina oculta durante los primeros 4 meses, realizando durante este tiempo el estudio de mercado y generando ganancias para la expansión a un restaurante de puertas abiertas. Nuestro concepto es una mezcla entre lo urbano y lo gourmet.",
+      "type": "work",
+      "location": "Barranquilla, Colombia"
+    },
+    {
+      "id": "innogrowth",
+      "company": "InnoGrowth Consulting",
+      "role": "COO & Co-Founder",
+      "startDate": "2023-08-01",
+      "endDate": null,
+      "description": "CONSULTORIA EMPRESARIAL | GRUPO EMPRESARIAL",
+      "type": "work",
+      "location": "Barranquilla, Colombia",
+      "highlights": [
+        "Ideación y desarrollo de +30 negocios",
+        "Registro de +10 empresas/marcas",
+        "+20 empresas y negocios activos en el mercado",
+        "7 empresas creciendo activamente",
+        "5 ideas de negocio que no sobrevivieron (aprendizaje)"
+      ]
+    },
+    {
+      "id": "coderlabs",
+      "company": "CoderLabs",
+      "role": "CEO & Co-Founder",
+      "startDate": "2021-07-01",
+      "endDate": "2025-10-01",
+      "description": "Co-fundador y CEO de CoderLabs. Liderazgo estratégico, toma de decisiones ejecutivas y dirección del crecimiento de la empresa en mercados internacionales. Además de mis funciones como CEO, también participé activamente en la dirección de proyectos y el desarrollo de software.",
+      "type": "work",
+      "location": "Estados Unidos / Barranquilla / Barcelona (Remoto)",
+      "highlights": [
+        "Liderazgo estratégico y toma de decisiones ejecutivas como CEO",
+        "Gerencia de +30 proyectos tecnológicos aplicando metodologías ágiles (Scrum, Kanban)",
+        "Desarrollo de +10 aplicativos en 4 años"
+      ]
+    },
+    {
+      "id": "steam",
+      "company": "STEAM Academy",
+      "role": "Profesor y Director del Programa de Software",
+      "startDate": "2020-02-01",
+      "endDate": "2024-02-01",
+      "description": "Docente y coordinador académico en programas de tecnología y desarrollo de software. Impartí clases de programación, desarrollo de videojuegos y electrónica, además de liderar el equipo académico en la planeación de programas educativos STEAM.",
+      "type": "work",
+      "location": "Barranquilla, Colombia · Híbrido",
+      "highlights": [
+        "Coordinación del equipo académico y planeación de programas educativos STEAM",
+        "Clases de desarrollo de videojuegos con Unity 2D y Scratch",
+        "Clases de electrónica con Arduino",
+        "Diseño tridimensional con Tinkercad",
+        "Desarrollo frontend con HTML, CSS, JavaScript, React, Next.js y Tailwind CSS"
+      ],
+      "skills": [
+        "Git", "GitHub", "Administración académica", "Software Development",
+        "Microsoft Excel", "Pensamiento de diseño", "Figma"
+      ]
+    },
+    {
+      "id": "samsung",
+      "company": "Samsung Electronics - Crack The Code",
+      "role": "Big Data Professor",
+      "startDate": "2023-06-01",
+      "endDate": "2024-02-01",
+      "description": "Diseño e impartición de programa educativo en Big Data para estudiantes y profesionales interesados en análisis de datos y tecnologías emergentes.",
+      "type": "work",
+      "location": "Lima, Perú (Remoto)",
+      "highlights": [
+        "Enseñanza de Python, Jupyter Notebook y tecnologías relacionadas con Big Data",
+        "Manipulación, análisis y visualización de datos a gran escala",
+        "Conceptos clave: minería de datos, modelado de datos y procesamiento de grandes volúmenes"
+      ],
+      "skills": [
+        "Stack Python", "Consumo de APIs", "Visualización de datos", "Jupyter Notebook", "Big Data"
+      ]
+    },
+    {
+      "id": "crackthecode",
+      "company": "Crack The Code",
+      "role": "Technology Teacher",
+      "startDate": "2023-05-01",
+      "endDate": "2024-02-01",
+      "description": "Diseño y liderazgo de clases especializadas para profesores, capacitándolos en diversas tecnologías y herramientas digitales.",
+      "type": "work",
+      "location": "México (Remoto)",
+      "highlights": [
+        "Fundamentos de programación con Python",
+        "Estructuras de control, funciones y resolución de problemas computacionales"
+      ]
+    },
+    {
+      "id": "unilibre-semillero",
+      "company": "Universidad Libre ® - CvLAC",
+      "role": "Semillero de Investigación",
+      "startDate": "2022-02-01",
+      "endDate": "2024-11-01",
+      "description": "Investigador en el semillero de la Universidad Libre, enfocado en el análisis de sentimientos en redes sociales y procesamiento de lenguaje natural.",
+      "type": "work",
+      "location": "Cartagena de Indias, Bolívar, Colombia",
+      "highlights": [
+        "Ponente en el XX Encuentro Departamental de Semilleros de Investigación",
+        "Proyecto: 'Análisis de sentimientos en redes sociales para turismo accesible de personas con discapacidad'",
+        "Participación en el Encuentro Nacional de Semilleros en Cartagena de Indias",
+        "Asistencia a seminarios especializados en Procesamiento de Lenguaje Natural"
+      ]
+    },
+    {
+      "id": "unilibre",
+      "company": "Universidad Libre ®",
+      "role": "Ingeniería de Sistemas - Bachelor of Engineering (BE)",
+      "startDate": "2020-01-01",
+      "endDate": "2024-12-01",
+      "description": "Formación integral en ingeniería de sistemas con énfasis en gestión de proyectos tecnológicos, desarrollo de software e investigación.",
+      "type": "education",
+      "location": "Barranquilla, Colombia"
+    },
+    {
+      "id": "itsa",
+      "company": "Institución Universitaria ITSA",
+      "role": "Técnico en Sistemas Informáticos",
       "startDate": "2019-01-01",
-      "endDate": "2022-02-28",
-      "description": "Consultoría en transformación digital para empresas de diversos sectores. Análisis de requerimientos, diseño de arquitecturas y acompañamiento en implementación de soluciones tecnológicas.",
-      "type": "work"
+      "endDate": "2019-12-01",
+      "description": "Programa técnico para diseñar, desarrollar, configurar y administrar sistemas de información y computación.",
+      "type": "education",
+      "location": "Barranquilla, Colombia",
+      "highlights": [
+        "🥇 Mejor de la clase",
+        "Programa del estado",
+        "Diseño, desarrollo, configuración y administración de sistemas de información"
+      ]
     },
     {
-      "id": "4",
-      "company": "Universidad Nacional",
-      "role": "Ingeniería de Sistemas",
-      "startDate": "2015-01-01",
-      "endDate": "2019-12-31",
-      "description": "Formación integral en ingeniería de sistemas: software, hardware, redes y gestión de proyectos. Proyecto de grado: Plataforma de gestión empresarial con enfoque en escalabilidad.",
-      "type": "education"
-    },
-    {
-      "id": "5",
-      "company": "Comunidad de Emprendedores",
-      "role": "Mentor de Startups",
-      "startDate": "2021-06-01",
-      "endDate": null,
-      "description": "Acompañamiento a emprendedores en sus primeras etapas. Mentoría en validación de ideas, modelos de negocio y estrategias de crecimiento.",
-      "type": "volunteer"
+      "id": "combarranquilla",
+      "company": "Centro de Formación Combarranquilla",
+      "role": "Técnico Auxiliar Contable y Financiero",
+      "startDate": "2018-02-01",
+      "endDate": "2019-12-01",
+      "description": "Programa técnico para gestionar y procesar información contable y financiera, incluyendo el registro de transacciones, elaboración de informes, conciliaciones bancarias y cumplimiento de normativa tributaria y fiscal.",
+      "type": "education",
+      "location": "Barranquilla, Colombia",
+      "highlights": [
+        "🥇 Representante de la clase",
+        "Programa de becas",
+        "Manejo de herramientas contables y financieras como Siigo y Excel",
+        "Registro de transacciones y elaboración de informes",
+        "Conciliaciones bancarias y cumplimiento de normativa tributaria"
+      ],
+      "skills": [
+        "Microsoft Excel", "Siigo"
+      ]
     }
   ]
 }

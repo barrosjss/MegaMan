@@ -1,0 +1,24 @@
+{
+  "id": "lp-m1-t1",
+  "courseId": "logica-programacion",
+  "title": "La Génesis del Dato y el Orden",
+  "order": 1,
+  "duration": "90 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "etimologia-logica",
+      "title": "Etimología de Lógica y Programación",
+      "content": "[VIDEO: https://www.youtube.com/embed/F8HwxGBQsw8]\n\n## El Origen de las Palabras\n\n### Lógica (Logic)\n**Del griego 'logos' (λόγος)**\n\nEl término 'logos' es uno de los conceptos más ricos de la filosofía griega. Significa:\n- **Palabra** (lo que se dice)\n- **Razón** (la capacidad de pensar)\n- **Estudio** (el acto de examinar)\n- **Principio ordenador** (la estructura subyacente)\n\n**¿Por qué 'logos' se tradujo como lógica?**\n\nEn el siglo IV a.C., Aristóteles fundó lo que llamó 'Organon' (Instrumento), un conjunto de tratados sobre el razonamiento válido. Siglos después, los filósofos romanos y medievales buscaron un término que capturara la esencia del 'estudio del pensamiento correcto'. Tomaron 'logos' y crearon 'logica' - la ciencia que estudia los principios del razonamiento válido.\n\n**La lógica no es opinión**: Es el estudio de las leyes formales del pensamiento. Es matemática aplicada al razonamiento.\n\n### Programación (Programming)\n**Del griego 'pro' (πρό) + 'gramma' (γράμμα)**\n\n- **'Pro'** = Antes, por adelantado\n- **'Gramma'** = Letra, escritura, símbolo\n\n**Programar literalmente significa 'escribir antes'**.\n\n**¿Por qué este nombre?**\n\nEn la antigua Grecia, un 'programa' era una carta pública escrita antes de un evento. Anunciaba lo que iba a suceder. En la computación, retomamos esta idea: **escribimos instrucciones antes de que la máquina las ejecute**.\n\n**El programador es un profeta literal**: Predice y escribe cada paso que la máquina dará antes de que lo dé.\n\n### La Unión de Conceptos\n\n**Programación Lógica** = Escribir antes (pro-gramma) las reglas del pensamiento correcto (logos) para que una máquina las ejecute."
+    },
+    {
+      "id": "concepto-escribir-antes",
+      "title": "El Concepto de 'Escribir Antes de'",
+      "content": "## La Paradoja del Programador\n\n### La Máquina No Piensa, Ejecuta\n\n**Principio fundamental**: La computadora no interpreta intenciones, ejecuta instrucciones.\n\n**Analogía**: Imagina que le das instrucciones a alguien que:\n- Tiene memoria perfecta\n- Sigue órdenes literalmente\n- No puede preguntar '¿qué quisiste decir?'\n- No puede ver el resultado hasta terminar\n\nEsa persona es la máquina.\n\n### El Costo del Error\n\n**En otras disciplinas**:\n- Un arquitecto puede borrar y redibujar\n- Un escritor puede borrar y reescribir\n- Un músico puede tocar de nuevo\n\n**En programación**:\n- La máquina ejecuta el error exactamente como está escrito\n- El error puede propagarse millones de veces por segundo\n- Las consecuencias pueden ser irreversibles (sistemas bancarios, médicos, aeroespaciales)\n\n**Ejemplo real**: El cohete Ariane 5 (1996) se autodestruyó 37 segundos después del despegue por un error de conversión de datos. Costo: $370 millones.\n\n### La Previsión como Superpoder\n\nEl programador debe:\n1. **Visualizar el resultado** antes de escribir\n2. **Anticipar errores** que ni siquiera han ocurrido\n3. **Considerar todos los caminos posibles**\n4. **Escribir sin ambigüedad**\n\n**Ejercicio mental**: Escribe instrucciones para hacer un sándwich. Luego pregúntate:\n- ¿Qué pasa si no hay pan?\n- ¿Qué pasa si el cuchillo está sucio?\n- ¿Qué pasa si alguien es alérgico al jamón?\n\nEl programador debe prever TODO."
+    },
+    {
+      "id": "video-introduccion",
+      "content": "[VIDEO: https://www.youtube.com/embed/pmOgMzBZw2w?start=35]"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lp-m2-t5",
+  "courseId": "logica-programacion",
+  "title": "Bifurcaciones Lógicas (Condicionales)",
+  "order": 5,
+  "duration": "90 min",
+  "isPublished": true,
+  "sections": [
+    {
+      "id": "introduccion",
+      "title": "Introducción al Tema",
+      "content": "## Bifurcaciones Lógicas (Condicionales)\n\nEste contenido está siendo desarrollado con el rigor NASA que caracteriza este curso.\n\n### Objetivo de Aprendizaje\n\nAl completar este tema, serás capaz de:\n- Comprender los fundamentos teóricos\n- Aplicar los conceptos en problemas prácticos\n- Diseñar soluciones siguiendo estándares de ingeniería\n\n### Estructura del Contenido\n\n1. **Fundamentos teóricos** - Entendiendo el porqué\n2. **Análisis de casos** - Ejemplos del mundo real\n3. **Ejercicios prácticos** - Aplicación de conceptos\n4. **Proyecto integrador** - Síntesis de conocimientos\n\n---\n\n**Nota**: Este es un curso vivo que se actualiza constantemente. El contenido detallado estará disponible próximamente."
+    }
+  ]
+}
