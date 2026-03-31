@@ -7,6 +7,7 @@ import {
   Users, 
   Briefcase, 
   FileText,
+  Newspaper,
   BookOpen, 
   Clock, 
   ChevronLeft,
@@ -23,6 +24,7 @@ export function generateStaticParams() {
     { id: "personal-growth" },
     { id: "business" },
     { id: "papers" },
+    { id: "noticias-hitos" },
   ];
 }
 
@@ -57,6 +59,11 @@ const branchConfig: Record<string, { icon: React.ElementType; color: string; bgC
     icon: FileText,
     color: "text-accent-silver",
     bgColor: "bg-accent-silver/10",
+  },
+  "noticias-hitos": {
+    icon: Newspaper,
+    color: "text-accent-blue",
+    bgColor: "bg-accent-blue/10",
   },
 };
 

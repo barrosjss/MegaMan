@@ -6,6 +6,7 @@ import {
   Users, 
   Briefcase, 
   FileText,
+  Newspaper,
   BookOpen, 
   Clock, 
   ChevronRight,
@@ -14,7 +15,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Bitácora | Jesús Barros",
-  description: "Apuntes, notas y recursos de mi proceso de aprendizaje en desarrollo de software, negocios, crecimiento personal y papers.",
+  description: "Apuntes, notas y recursos de mi proceso de aprendizaje en desarrollo de software, negocios, crecimiento personal, papers, y un registro de noticias e hitos históricos de mi vida.",
 };
 
 const branchConfig: Record<string, { icon: React.ElementType; color: string; bgColor: string }> = {
@@ -38,6 +39,11 @@ const branchConfig: Record<string, { icon: React.ElementType; color: string; bgC
     color: "text-accent-silver",
     bgColor: "bg-accent-silver/10",
   },
+  "noticias-hitos": {
+    icon: Newspaper,
+    color: "text-accent-blue",
+    bgColor: "bg-accent-blue/10",
+  },
 };
 
 
@@ -55,7 +61,7 @@ export default function BitacoraPage() {
               Mi <span className="text-accent-blue">Bitácora</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Apuntes, notas y recursos de mi proceso continuo de aprendizaje. 
+              Apuntes, notas y recursos de mi proceso continuo de aprendizaje, así como un registro de noticias e hitos históricos de mi vida. 
               Aquí comparto lo que voy descubriendo en diferentes áreas de interés.
             </p>
           </div>

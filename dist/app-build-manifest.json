@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/(public)/bitacora/[slug]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(public)/bitacora/[slug]/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,25 +16,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(public)/bitacora/page.js"
     ],
+    "/(public)/sobre-mi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(public)/sobre-mi/page.js"
+    ],
     "/(public)/bitacora/rama/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(public)/bitacora/rama/[id]/page.js"
     ],
-    "/(public)/bitacora/curso/[courseId]/page": [
+    "/(public)/proyectos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(public)/bitacora/curso/[courseId]/page.js"
+      "static/chunks/app/(public)/proyectos/page.js"
     ],
-    "/(public)/bitacora/tema/[topicId]/page": [
+    "/(public)/proyectos/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(public)/bitacora/tema/[topicId]/page.js"
+      "static/chunks/app/(public)/proyectos/[slug]/page.js"
     ],
-    "/_not-found/page": [
+    "/(public)/proyectos/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/(public)/proyectos/layout.js"
     ]
   }
 }

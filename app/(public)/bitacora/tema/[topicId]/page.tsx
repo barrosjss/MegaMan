@@ -12,7 +12,8 @@ import {
   FileText,
   BookOpen, 
   Clock, 
-  ChevronLeft
+  ChevronLeft,
+  Newspaper
 } from "lucide-react";
 
 interface Props {
@@ -73,6 +74,11 @@ const branchConfig: Record<string, { icon: React.ElementType; color: string; bgC
     icon: FileText,
     color: "text-accent-silver",
     bgColor: "bg-accent-silver/10",
+  },
+  "noticias-hitos": {
+    icon: Newspaper,
+    color: "text-accent-blue",
+    bgColor: "bg-accent-blue/10",
   },
 };
 

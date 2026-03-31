@@ -1,0 +1,12 @@
+{
+  "id": "noticias-hitos",
+  "title": "Noticias e Hitos Históricos",
+  "description": "Registro de eventos importantes, noticias destacadas e hitos históricos que marcan mi vida personal y trayectoria profesional.",
+  "category": "personal",
+  "level": "all",
+  "coverImage": "/images/courses/noticias.jpg",
+  "isPublished": true,
+  "publishedAt": "2024-03-31",
+  "updatedAt": "2024-03-31",
+  "courses": []
+}

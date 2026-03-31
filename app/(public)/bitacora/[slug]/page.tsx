@@ -29,7 +29,7 @@ export function generateMetadata({ params }: Props): Metadata {
   // Try to find the course in any learning path
   let course = null;
   
-  const paths = ["software-development", "personal-growth", "business"];
+  const paths = ["software-development", "personal-growth", "business", "papers", "noticias-hitos"];
   for (const pathId of paths) {
     const c = getCourseBySlug(pathId, slug);
     if (c) {
@@ -73,7 +73,7 @@ export default function CoursePage({ params }: Props) {
   let course = null;
   let learningPath = null;
   
-  const paths = ["software-development", "personal-growth", "business"];
+  const paths = ["software-development", "personal-growth", "business", "papers", "noticias-hitos"];
   for (const pathId of paths) {
     const p = getLearningPathById(pathId);
     const c = getCourseBySlug(pathId, slug);

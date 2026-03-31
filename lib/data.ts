@@ -12,6 +12,7 @@ import softwareDevelopment from "@/data/bitacora/ramas/software-development.json
 import personalGrowth from "@/data/bitacora/ramas/personal-growth.json";
 import business from "@/data/bitacora/ramas/business.json";
 import papers from "@/data/bitacora/ramas/papers.json";
+import noticiasHitos from "@/data/bitacora/ramas/noticias-hitos.json";
 
 import logicaProgramacionOriginal from "@/data/bitacora/contenido/logica/logica-programacion.json";
 import gitCourseContent from "@/data/bitacora/contenido/git/control-versiones-git.json";
@@ -56,12 +57,14 @@ import lpM4T16 from "@/data/bitacora/contenido/logica/temas/lp-m4-t16.json";
 import profileData from "@/data/profile/profile.json";
 import experienceData from "@/data/profile/experience.json";
 import skillsData from "@/data/profile/skills.json";
+import projectsData from "@/data/projects/projects.json";
 
 const learningPaths: LearningPath[] = [
   softwareDevelopment as LearningPath,
   personalGrowth as LearningPath,
   business as LearningPath,
   papers as LearningPath,
+  noticiasHitos as LearningPath,
 ];
 
 // Legacy lessons data (old structure)
@@ -139,6 +142,15 @@ export function getExperiences(): Experience[] {
 // Skills data
 export function getSkills(): Skill[] {
   return skillsData.skills as Skill[];
+}
+
+// Projects data
+export function getProjects(): any[] {
+  return projectsData.projects;
+}
+
+export function getProjectBySlug(slug: string): any | undefined {
+  return projectsData.projects.find((p: any) => p.slug === slug);
 }
 
 // Course content functions (new modular structure)
