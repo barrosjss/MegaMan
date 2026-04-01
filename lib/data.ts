@@ -7,6 +7,7 @@ import {
   CourseContent,
   CourseTopic,
   TopicContent,
+  Project,
 } from "@/types";
 import softwareDevelopment from "@/data/bitacora/ramas/software-development.json";
 import personalGrowth from "@/data/bitacora/ramas/personal-growth.json";
@@ -145,12 +146,12 @@ export function getSkills(): Skill[] {
 }
 
 // Projects data
-export function getProjects(): any[] {
-  return projectsData.projects;
+export function getProjects(): Project[] {
+  return projectsData.projects as Project[];
 }
 
-export function getProjectBySlug(slug: string): any | undefined {
-  return projectsData.projects.find((p: any) => p.slug === slug);
+export function getProjectBySlug(slug: string): Project | undefined {
+  return (projectsData.projects as Project[]).find((p: Project) => p.slug === slug);
 }
 
 // Course content functions (new modular structure)

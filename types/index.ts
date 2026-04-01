@@ -126,3 +126,18 @@ export interface TopicContent {
   isPublished: boolean;
   sections: TopicSection[];
 }
+
+export interface Project {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  icon: string;
+  iconBg: string;
+  launchDate: string;
+  status: string;
+  company: string;
+  isExternal: boolean;
+  link?: string;
+}

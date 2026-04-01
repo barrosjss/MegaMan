@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fbitacora\u002F[slug]","\u002Fbitacora\u002Fcurso\u002F[courseId]","\u002Fbitacora\u002Frama\u002F[id]","\u002Fbitacora\u002Ftema\u002F[topicId]","\u002Fproyectos\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

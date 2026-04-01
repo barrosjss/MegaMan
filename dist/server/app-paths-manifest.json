@@ -1,7 +1,0 @@
-{
-  "/(public)/bitacora/page": "app/(public)/bitacora/page.js",
-  "/(public)/bitacora/rama/[id]/page": "app/(public)/bitacora/rama/[id]/page.js",
-  "/(public)/sobre-mi/page": "app/(public)/sobre-mi/page.js",
-  "/(public)/proyectos/page": "app/(public)/proyectos/page.js",
-  "/(public)/proyectos/[slug]/page": "app/(public)/proyectos/[slug]/page.js"
-}
